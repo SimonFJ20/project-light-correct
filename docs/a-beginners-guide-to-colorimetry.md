@@ -187,9 +187,9 @@ This might be more fun than useful but here is an animation cycling through all 
 
 ![Two animations of light shining on object and corrolating RGA values on curve](assets/animation0.gif)
 
-## 5) RGB Chromaticity Coordinates
+## 5) `RGB` Chromaticity Coordinates
 
-Colors specified as three tristimulus values, like in the RGB, are difficult to visualize. It’s not easy to imagine what a color looks like at a specific coordinate inside a three dimensional space.
+Colors specified as three tristimulus values, like in the `RGB`, are difficult to visualize. It’s not easy to imagine what a color looks like at a specific coordinate inside a three dimensional space.
 
 One way we can simplify this problem is to remove the intensity dimension from the data, so that dark red and light red are the same value. This concept of color minus intensity is called Chromaticity.
 
@@ -205,17 +205,17 @@ b = B/(R+G+B)
 rgb are chromaticity coordinates and r + g + b = 1
 ```
 
-rgb is about the ratio, it tells you “To match `400nm` light, much more blue is needed than red or green”
+`rgb` is about the ratio, it tells you “To match `400nm` light, much more blue is needed than red or green”
 
-RGB is about absolute amounts, it tells you “To match 400nm light, very little of any primary light is needed”
+`RGB` is about absolute amounts, it tells you “To match 400nm light, very little of any primary light is needed”
 
-We can plot every value of rgb as a point in three dimensions. This gives us a curve that represents the chromaticity of each spectral wavelength of light, also called a spectral locus.
+We can plot every value of `rgb` as a point in three dimensions. This gives us a curve that represents the chromaticity of each spectral wavelength of light, also called a spectral locus.
 
 ![Curve representing chromaticity of each spectral wavelength of light, also called "spectral locus"](assets/animation1.gif)
 
 ### One Weird Trick
 
-Even though we still have three values (rgb), they all sum to one, which means we can always determine the third value from the first two. Like so:
+Even though we still have three values (`rgb`), they all sum to one, which means we can always determine the third value from the first two. Like so:
 
 ```py
 r = -1.5 #known
@@ -229,7 +229,7 @@ then b = 1 - g - r
 so b must be 0.5
 ```
 
-By removing intensity information from the data (in the conversion from RGB to rgb), we have actually converted a three dimensional space into two dimensions, which we can take advantage of for simplified visualizations.
+By removing intensity information from the data (in the conversion from `RGB` to `rgb`), we have actually converted a three dimensional space into two dimensions, which we can take advantage of for simplified visualizations.
 
 Since we can safely drop a dimension without losing information, let’s convert the b axis to all zeroes and just plot rg in two dimensions. This is called a projection to the rg plane.
 
@@ -242,7 +242,7 @@ Let’s break down what we’re looking at
 * Every point on the outer curve is the chromaticity coordinate of a spectral color.
 * Every point inside the curve is a chromaticity of a non-spectral color.
 * Every point outside the curve is an imaginary chromaticity that is meaningless and has no realizable color.
-* Our original RGB primaries, are spectral colors, so they fall on the curve.
+* Our original `RGB primaries, are spectral colors, so they fall on the curve.
 * Every point inside the triangle formed by the primaries is a chromaticity that can be created with those lights.
 * Points inside the curve but not the triangle are real chromaticities but you would need different primary lights to create them.
 
