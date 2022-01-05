@@ -339,9 +339,9 @@ Another advanced topic is Color Difference Models, quantifying how different two
 
 I like this quote from Wright.
 
-> Stability of matching also means that a colour specification cannot take account of the changes in appearance of a colour inuduced by adaptation, and it is for this reason that we must regard a tristimulus specification as a measure of the quality of the stimulus rather than of the quality of the sensation.
+> *Stability of matching also means that a colour specification cannot take account of the changes in appearance of a colour inuduced by adaptation, and it is for this reason that we must regard a tristimulus specification as a measure of the quality of the stimulus rather than of the quality of the sensation.*
 > 
-> This may be regarded as a limitation of colour measurement and it must be admitted that we are at present a long way from establishing a system on which colour appearance can be specified exactly, yet experience shows that colorimetry as at present practised has many applications and is, indeed, an esssential state towards the specficiation of colour apperance.
+> *This may be regarded as a limitation of colour measurement and it must be admitted that we are at present a long way from establishing a system on which colour appearance can be specified exactly, yet experience shows that colorimetry as at present practised has many applications and is, indeed, an esssential state towards the specficiation of colour apperance.*
 > 
 > - W. D. Wright, The Measurement of Color, 1944
 
