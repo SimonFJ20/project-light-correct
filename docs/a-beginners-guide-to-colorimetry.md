@@ -1,23 +1,6 @@
 
 # A Beginner's guide to (CIE) Colorimetry
 
-- [A Beginner's guide to (CIE) Colorimetry](#a-beginners-guide-to-cie-colorimetry)
-  - [1) Trichromatic Color Theory](#1-trichromatic-color-theory)
-  - [2) 1924 Luminous Efficiency Function, `V(λ)`](#2-1924-luminous-efficiency-function-vλ)
-  - [3) 1931 RGB Color Matching Functions](#3-1931-rgb-color-matching-functions)
-  - [4) Wright Guild Color Matching Experiments](#4-wright-guild-color-matching-experiments)
-    - [About those negative values](#about-those-negative-values)
-    - [Restrictions on viewing conditions](#restrictions-on-viewing-conditions)
-  - [5) RGB Chromaticity Coordinates](#5-rgb-chromaticity-coordinates)
-    - [One Weird Trick](#one-weird-trick)
-  - [7) CIE XYZ Color Space](#7-cie-xyz-color-space)
-  - [8) Real World Color Spaces](#8-real-world-color-spaces)
-  - [9) Beyond Color Matching](#9-beyond-color-matching)
-  - [10) Acknowledgments, Further Reading](#10-acknowledgments-further-reading)
-    - [Books](#books)
-    - [Papers](#papers)
-    - [Misc](#misc)
-
 [Link to Original Medium.com](https://medium.com/hipster-color-science/a-beginners-guide-to-colorimetry-401f1830b65a)
 
 [Chandler Abraham @cba](https://medium.com/@cba)
@@ -46,16 +29,22 @@ To reiterate that point, Color Matching Systems are not focused on describing co
 
 You can think of CIE 1931 like you would Newtonian physics. It’s a mathematical generalization of human color vision, that allows us to define, and accurately reproduce colors in most situations. It does not fully describe the subjective and complicated process of human color vision, it’s not without edge cases, but it is relatively easy to work with.
 
-1. Trichromatic Color Theory
-2. 1924 Luminous Efficiency Function, V(λ)
-3. 1931 RGB Color Matching Functions
-4. Wright Guild Color Matching Experiments
-5. RGB Chromaticity Coordinates
-6. Non-Spectral Colors
-7. CIE XYZ Color Space
-8. Real World Color Spaces
-9. Beyond Color Matching
-10. Acknowledgements, Further Reading
+- [A Beginner's guide to (CIE) Colorimetry](#a-beginners-guide-to-cie-colorimetry)
+  - [1) Trichromatic Color Theory](#1-trichromatic-color-theory)
+  - [2) 1924 Luminous Efficiency Function, `V(λ)`](#2-1924-luminous-efficiency-function-vλ)
+  - [3) 1931 RGB Color Matching Functions](#3-1931-rgb-color-matching-functions)
+  - [4) Wright Guild Color Matching Experiments](#4-wright-guild-color-matching-experiments)
+    - [About those negative values](#about-those-negative-values)
+    - [Restrictions on viewing conditions](#restrictions-on-viewing-conditions)
+  - [5) RGB Chromaticity Coordinates](#5-rgb-chromaticity-coordinates)
+    - [One Weird Trick](#one-weird-trick)
+  - [7) CIE XYZ Color Space](#7-cie-xyz-color-space)
+  - [8) Real World Color Spaces](#8-real-world-color-spaces)
+  - [9) Beyond Color Matching](#9-beyond-color-matching)
+  - [10) Acknowledgments, Further Reading](#10-acknowledgments-further-reading)
+    - [Books](#books)
+    - [Papers](#papers)
+    - [Misc](#misc)
 
 ## 1) Trichromatic Color Theory
 
@@ -283,7 +272,7 @@ Matrix coefficents that convert the RGB space into one where the carefully chose
 source: Colorimetry by Janos Schanda, page 30
 ```
 
-*~ waves linear algebra wand ~*
+*\~ waves linear algebra wand \~*
 
 After, in xy chromaticity space. Look, all positive values!
 
